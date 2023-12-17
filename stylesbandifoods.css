@@ -1,0 +1,158 @@
+body {
+    background-color: #e6f3ff;
+    padding: 50px;
+    border: rgb(30, 32, 39);
+    border-style: dashed;
+    border-width: 5px;
+    bottom: 100px;
+    border: 5px dashed rgb(30, 32, 39);
+    animation: colorChange 10s linear infinite; /* Change '5s' to control animation duration */
+  
+}
+
+
+
+@keyframes colorChange {
+    0% {
+      background-color: #ffffff; /* Initial color */
+    }
+    50% {
+      background-color: #00ff2f; /* Intermediate color */
+    }
+    100% {
+        background-color: #ffffff; /* Final color */
+    }
+    
+  }
+  
+ 
+.h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+.titlechanges {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    color: blue;
+}
+
+.rounded-image{
+    border-radius: 50%;
+    width: 200px; 
+    height: auto; 
+    text-align: right;
+    float: right
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+.subtitlechange {
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#myButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; /* Use flexbox to create a horizontal row */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+#whatsapp {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; /* Use flexbox to create a horizontal row */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+#email {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; /* Use flexbox to create a horizontal row */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+button {
+    margin: 5px; /* Add some spacing between buttons */
+}
+
+#location {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; /* Use flexbox to create a horizontal row */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.open-hours {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.open-hours h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.open-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.open-hours li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.open-hours .day {
+    font-weight: bold;
+}
+
+.open-hours {
+    color: rgb(173, 0, 9);
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    padding: 3px;
+    background-color: orange;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+table {
+    border: 5px;
+    color: #000;
+    padding: 10px;
+}
